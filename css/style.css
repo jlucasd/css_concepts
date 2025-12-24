@@ -1,8 +1,30 @@
-body {
-    background: yellow;
+*{
+    padding: 20px;
 }
 
-h1 {
-    color: blue;
-    font-size: 88px;
+body{
+    background-color: #ccc;
 }
+
+.vermelho{
+    color: red;
+}
+
+.center{
+    text-align: center;
+}
+
+.fonte-30{
+    font-size: 30px;
+}
+
+#teste{
+    color: blue;
+    background: yellow;
+    border: 2px solid black;
+}
+
+/* h1, p{
+    color: red;
+    text-align: center;
+} */
