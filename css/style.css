@@ -44,3 +44,10 @@ p{
 .botao:hover{
     background: blue;
 }
+
+.teste{
+    width: 300px; /* largura */
+    height: 150px; /* altura */
+    max-width: 800px; /* largura máxima - bom para responsividade */
+    background: cyan;
+}
