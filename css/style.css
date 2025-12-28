@@ -3,7 +3,11 @@ body{
 }
 
 h1{
-    color:#a81c13;
+    color: white;
+    border: 1px solid black;
+    border-radius: 10px; /* arredondada */
+    text-align: center;
+    background: black;
 }
 
 p{
