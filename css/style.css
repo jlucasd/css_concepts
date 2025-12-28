@@ -14,12 +14,16 @@ h1{
     padding-left: 10px; 
     padding-right: 70px;
     padding: 50px 70px 50px 10px; 
+    letter-spacing: 5px;
 }
 
 p{
-    color: blue;
+    color: black;
     margin-bottom: 40px;
     margin-left: 20px;
+    text-align: justify;
+    text-transform: uppercase;
+    text-indent: 60px;
 }
 
 .exemplo-back{
