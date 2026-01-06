@@ -160,3 +160,13 @@ div{
     width: 33%;
     height: 150px;
 }
+
+
+.ex1{
+    /* Importante para responsividade - max-width */
+    max-width: 800px;
+}
+
+.ex2{
+    max-width: 800px;
+}
