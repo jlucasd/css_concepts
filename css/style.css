@@ -230,3 +230,17 @@ img{
     width: 100%;
     opacity: 0.5;
 }
+
+.exemplo{
+    background: grey;
+    color: black;
+    height: 50px;
+    width: 1200px;
+    overflow: auto;
+}
+
+
+body{
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
