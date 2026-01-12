@@ -172,13 +172,13 @@ div{
 } */
 
 
-.container{
+/* .container{
     display: inline-block;
     /* background: blue; */
     width: 100%;
     height: 400px;
     position: relative;
-}
+} */
 
 .div1{
     left: 60px;
@@ -226,10 +226,10 @@ div{
     color: white;
 }
 
-img{
+/* img{
     width: 100%;
     opacity: 0.5;
-}
+} */
 
 .exemplo{
     background: grey;
@@ -243,4 +243,43 @@ img{
 body{
     overflow-y: hidden;
     overflow-x: hidden;
+}
+
+.container{
+    border: 1px solid black;
+    overflow: auto;
+}
+
+.container img {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+ul{
+    background: black;
+    padding: 20px;
+}
+
+li{
+    display: inline-block;
+}
+
+li a{
+    color: white;
+    text-decoration: none;
+        padding: 20px;
+
+}
+
+li a:hover{
+    background: gray;
+}
+
+.login {
+    float: right;
+}
+
+.login a:hover{
+    background: red;
 }
