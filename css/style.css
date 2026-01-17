@@ -256,7 +256,7 @@ body{
     margin-bottom: 10px;
 }
 
-ul{
+/* ul{
     background: black;
     padding: 20px;
 }
@@ -274,7 +274,7 @@ li a{
 
 li a:hover{
     background: gray;
-}
+} */
 
 .login {
     float: right;
@@ -312,4 +312,55 @@ a.botao6:hover{
     color: white;
     padding: 40px;
     opacity: 0.5;
+}
+
+ul{
+    background: black;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+li{
+    float: left;
+}
+
+li a, .dropbtn{
+    display: inline-block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
+}
+
+li a:hover, .dropdown:hover .dropbtn{
+    background: gray;
+}
+
+li.dropdown{
+    display: inline-block;
+}
+
+.dropdowncontent{
+    display: none;
+    position: absolute;
+    background: white;
+    width: 150px;
+}
+
+.dropdowncontent a{
+    color: black;
+    display: block;
+    text-align: left;
+    text-decoration: none;
+    border: 1px solid gray;
+}
+
+.dropdowncontent a:hover{
+    color: white;
+}
+
+.dropdown:hover .dropdowncontent{
+    display: block;
 }
