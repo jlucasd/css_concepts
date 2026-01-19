@@ -364,3 +364,15 @@ li.dropdown{
 .dropdown:hover .dropdowncontent{
     display: block;
 }
+
+.red{
+    background: red;
+}
+
+h1.red{
+    background: orangered;
+}
+
+h1 {
+    background: yellow;
+}
