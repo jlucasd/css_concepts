@@ -376,3 +376,15 @@ h1.red{
 h1 {
     background: yellow;
 }
+
+#meuid {
+    color: red;
+}
+
+.minhaclasse {
+    color: blue;
+}   
+
+h1{ 
+    color:green !important;
+}
