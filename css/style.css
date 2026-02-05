@@ -374,7 +374,7 @@ h1.red{
 }
 
 h1 {
-    background: yellow;
+    text-shadow: 2px 2px;
 }
 
 #meuid {
@@ -386,7 +386,7 @@ h1 {
 }   
 
 h1{ 
-    color:green !important;
+    color:black;
 }
 
 body{
@@ -398,4 +398,21 @@ body{
     height: 300px;
     background-image: linear-gradient(to bottom right, red, orange, blue, yellow, green, indigo, violet) ;
     background-image: radial-gradient(green, blue);
+}
+
+.branco{
+    color: white !important;
+    text-shadow: 2px 2px 4px black;
+}
+
+.multipla{
+    text-shadow: 0 0 3px #FF0000, 2px 2px 5px yellow, 4px 4px 7px blue;
+}
+
+.caixa {
+    width: 40%;
+    height: 300px;
+    background: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
 }
