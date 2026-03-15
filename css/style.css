@@ -478,3 +478,23 @@ h2{
         background: black;
     }
 }
+
+.flex-pai{
+    background: blue;
+    height: 600px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.flex-pai div{
+    background: white;
+    border: 1px solid black;
+    padding: 30px;
+    text-align: center;
+}
+
+*{
+    box-sizing: border-box;
+}
