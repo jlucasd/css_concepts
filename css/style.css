@@ -389,9 +389,9 @@ h1 {
     color: blue;
 }   
 
-h1{ 
+/* h1{ 
     color:black;
-}
+} */
 
 body{
     background-image: linear-gradient(45deg, gray, white);
@@ -442,6 +442,9 @@ h2{
     body{
         background: blue;
     }
+    .navbar{
+        flex-direction: column;
+    }
 }
 
 /* Dispositivos um pouco maiores, mas ainda pequenos (Pequenos Tablets e Smartphones + largos, 600px para cima) */
@@ -479,22 +482,48 @@ h2{
     }
 }
 
-.flex-pai{
-    background: blue;
-    height: 600px;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-content: center;
+*{
+    box-sizing: border-box;
 }
 
-.flex-pai div{
-    background: white;
-    border: 1px solid black;
-    padding: 30px;
+body{
+    margin: 0;
+}
+
+.header{
+    background: #467401;
+    padding: 80px;
+    text-align: center;
+    color: white;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    background: black;
+}
+
+.navbar a{
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
     text-align: center;
 }
 
-*{
-    box-sizing: border-box;
+.navbar a:hover{
+    background: gray;
+    color: black;
+    font-weight: bold;
+}
+
+.corpo{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.card{
+    flex: 48%;
+    background: #ccc;
+    height: 400px;
+    margin: 1%;
 }
